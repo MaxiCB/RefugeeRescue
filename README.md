@@ -6,9 +6,9 @@
 # Refugee Tracker
 
 
-![](https://img.shields.io/github/stars/MaxiCB/RefugeeRescue) ![](https://img.shields.io/github/forks/MaxiCB/RefugeeRescue) ![](https://img.shields.io/github/tag/MaxiCB/RefugeeRescue) ![](https://img.shields.io/github/release/MaxiCB/RefugeeRescue) ![](https://img.shields.io/github/issues/MaxiCB/RefugeeRescue)
+![](https://img.shields.io/github/stars/MaxiCB/RefugeeRescue) ![](https://img.shields.io/github/forks/MaxiCB/RefugeeRescue) ![](https://img.shields.io/github/issues/MaxiCB/RefugeeRescue)
 
-####Install Instructions
+# Install Instructions
 
 Install Dependecies.
 
