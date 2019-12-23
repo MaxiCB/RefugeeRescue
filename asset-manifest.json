@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RefugeeRescue/static/css/main.fd29a41e.chunk.css",
+    "main.js": "/RefugeeRescue/static/js/main.f9fa4b00.chunk.js",
+    "main.js.map": "/RefugeeRescue/static/js/main.f9fa4b00.chunk.js.map",
+    "runtime-main.js": "/RefugeeRescue/static/js/runtime-main.262d1cd3.js",
+    "runtime-main.js.map": "/RefugeeRescue/static/js/runtime-main.262d1cd3.js.map",
+    "static/js/2.6eb28b3d.chunk.js": "/RefugeeRescue/static/js/2.6eb28b3d.chunk.js",
+    "static/js/2.6eb28b3d.chunk.js.map": "/RefugeeRescue/static/js/2.6eb28b3d.chunk.js.map",
+    "index.html": "/RefugeeRescue/index.html",
+    "precache-manifest.77c4324f22f9cf733a4bb3714931ab84.js": "/RefugeeRescue/precache-manifest.77c4324f22f9cf733a4bb3714931ab84.js",
+    "service-worker.js": "/RefugeeRescue/service-worker.js",
+    "static/css/main.fd29a41e.chunk.css.map": "/RefugeeRescue/static/css/main.fd29a41e.chunk.css.map",
+    "static/js/2.6eb28b3d.chunk.js.LICENSE": "/RefugeeRescue/static/js/2.6eb28b3d.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.262d1cd3.js",
+    "static/js/2.6eb28b3d.chunk.js",
+    "static/css/main.fd29a41e.chunk.css",
+    "static/js/main.f9fa4b00.chunk.js"
+  ]
+}
