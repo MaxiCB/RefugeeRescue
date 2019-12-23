@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@deck.gl/react": "^8.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "deck.gl": "^8.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-map-gl": "^5.1.5",
     "react-scripts": "3.3.0"
   },
   "scripts": {
@@ -30,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "convert-csv-to-json": "0.0.15"
   }
 }
