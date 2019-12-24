@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/RefugeeRescue/static/css/main.fd29a41e.chunk.css",
-    "main.js": "/RefugeeRescue/static/js/main.f9fa4b00.chunk.js",
-    "main.js.map": "/RefugeeRescue/static/js/main.f9fa4b00.chunk.js.map",
+    "main.js": "/RefugeeRescue/static/js/main.3eaaaa1b.chunk.js",
+    "main.js.map": "/RefugeeRescue/static/js/main.3eaaaa1b.chunk.js.map",
     "runtime-main.js": "/RefugeeRescue/static/js/runtime-main.262d1cd3.js",
     "runtime-main.js.map": "/RefugeeRescue/static/js/runtime-main.262d1cd3.js.map",
     "static/js/2.6eb28b3d.chunk.js": "/RefugeeRescue/static/js/2.6eb28b3d.chunk.js",
     "static/js/2.6eb28b3d.chunk.js.map": "/RefugeeRescue/static/js/2.6eb28b3d.chunk.js.map",
     "index.html": "/RefugeeRescue/index.html",
-    "precache-manifest.2f23e69e186a41f6ccbaa41670da61ed.js": "/RefugeeRescue/precache-manifest.2f23e69e186a41f6ccbaa41670da61ed.js",
+    "precache-manifest.5010485757edef32badfe684cb93fb96.js": "/RefugeeRescue/precache-manifest.5010485757edef32badfe684cb93fb96.js",
     "service-worker.js": "/RefugeeRescue/service-worker.js",
     "static/css/main.fd29a41e.chunk.css.map": "/RefugeeRescue/static/css/main.fd29a41e.chunk.css.map",
     "static/js/2.6eb28b3d.chunk.js.LICENSE": "/RefugeeRescue/static/js/2.6eb28b3d.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.262d1cd3.js",
     "static/js/2.6eb28b3d.chunk.js",
     "static/css/main.fd29a41e.chunk.css",
-    "static/js/main.f9fa4b00.chunk.js"
+    "static/js/main.3eaaaa1b.chunk.js"
   ]
 }
