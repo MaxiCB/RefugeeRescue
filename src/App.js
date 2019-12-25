@@ -41,10 +41,14 @@ const findCountry = (refugeeCountry) => {
     return [country.latlng[1] + addRandom(), country.latlng[0] + addRandom()];
   }
 }
+const openWebsite = () => {
+  window.open('https://maxicb.github.io/UI/');
+}
 
 function App() {
   return (
     <DeckGL initialViewState={viewState} controller={true} layers={buildHeat()}>
+      <button onClick={(e) => openWebsite()}>Go Back</button>
         <StaticMap mapStyle={mapStyle} mapboxApiAccessToken={mapBoxToken}/>
       </DeckGL>
   );
