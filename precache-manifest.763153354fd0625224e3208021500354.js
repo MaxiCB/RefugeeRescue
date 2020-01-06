@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66245257e13125c151e3e0b70eb83bee",
+    "revision": "08d503ba9c3233109930cd5b940d0201",
     "url": "/RefugeeRescue/index.html"
   },
   {
-    "revision": "7017c00789fc02eca23d",
+    "revision": "792a0412a06219d0a357",
     "url": "/RefugeeRescue/static/css/main.fd29a41e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RefugeeRescue/static/js/2.6eb28b3d.chunk.js.LICENSE"
   },
   {
-    "revision": "7017c00789fc02eca23d",
-    "url": "/RefugeeRescue/static/js/main.3eaaaa1b.chunk.js"
+    "revision": "792a0412a06219d0a357",
+    "url": "/RefugeeRescue/static/js/main.c5ea0174.chunk.js"
   },
   {
     "revision": "096fee33aac471322b66",
