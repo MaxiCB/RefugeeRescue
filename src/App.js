@@ -70,12 +70,12 @@ function App() {
         <NavbarBrand>RefugeeRescue</NavbarBrand>
         <Nav>
         <NavItem>
-          <NavLink href="'https://maxicb.github.io/UI/'" active>
+          <NavLink href="https://maxicb.github.io/UI/" active>
             Go Back
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="'https://github.com/MaxiCB/RefugeeRescue'" active>
+          <NavLink href="https://github.com/MaxiCB/RefugeeRescue" active>
             Source
           </NavLink>
         </NavItem>
