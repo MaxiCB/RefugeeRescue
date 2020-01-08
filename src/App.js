@@ -1,15 +1,25 @@
-import React from 'react';
-import DeckGL from '@deck.gl/react';
-import { HeatmapLayer } from '@deck.gl/aggregation-layers';
-import { StaticMap } from 'react-map-gl';
+import React from "react";
+import DeckGL from "@deck.gl/react";
+import { HeatmapLayer } from "@deck.gl/aggregation-layers";
+import { StaticMap } from "react-map-gl";
 
-import './App.css';
+import {
+  Nav,
+  NavItem,
+  Navbar,
+  NavLink,
+  NavbarBrand
+} from "reactstrap";
 
-const mapBoxToken = 'pk.eyJ1IjoiYWFyb25jYiIsImEiOiJjazRpM2E5M2cwcXdkM21xeGEwMHZ6Y2hiIn0.66ClWT4waW7ZhoNq2y0Cvg';
-const mapStyle = 'mapbox://styles/mapbox/dark-v10';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
-const countryData = require('./data/countries.json');
-const refugeeData = require('./data/data.json');
+const mapBoxToken =
+  "pk.eyJ1IjoiYWFyb25jYiIsImEiOiJjazRpM2E5M2cwcXdkM21xeGEwMHZ6Y2hiIn0.66ClWT4waW7ZhoNq2y0Cvg";
+const mapStyle = "mapbox://styles/mapbox/dark-v10";
+
+const countryData = require("./data/countries.json");
+const refugeeData = require("./data/data.json");
 
 const viewState = {
   longitude: 1,
@@ -21,36 +31,59 @@ const viewState = {
 
 const buildHeat = () => {
   return new HeatmapLayer({
-    id: 'heat',
+    id: "heat",
     data: refugeeData,
     getPosition: d => findCountry(d.country),
     getWeight: d => d.total * 1.4,
-    radiusPixels: 60,
-  })
-}
+    radiusPixels: 60
+  });
+};
 
 const addRandom = () => {
   let rand = Math.random() * (1 - 0.02) + 0.01;
   return rand;
-}
+};
 
-const findCountry = (refugeeCountry) => {
-  let country = countryData.find(item => item.name === refugeeCountry)
-  if(country != undefined){
-    console.log(country.latlng[1] + addRandom(), country.latlng[0] + addRandom());
+const findCountry = refugeeCountry => {
+  let country = countryData.find(item => item.name === refugeeCountry);
+  if (country != undefined) {
+    console.log(
+      country.latlng[1] + addRandom(),
+      country.latlng[0] + addRandom()
+    );
     return [country.latlng[1] + addRandom(), country.latlng[0] + addRandom()];
   }
-}
+};
 const openWebsite = () => {
-  window.open('https://maxicb.github.io/UI/');
-}
+  window.open("https://maxicb.github.io/UI/");
+};
 
 function App() {
   return (
-    <DeckGL initialViewState={viewState} controller={true} layers={buildHeat()}>
-      <button onClick={(e) => openWebsite()}>Go Back</button>
-        <StaticMap mapStyle={mapStyle} mapboxApiAccessToken={mapBoxToken}/>
+    <>
+      <DeckGL
+        initialViewState={viewState}
+        controller={true}
+        layers={buildHeat()}
+      >
+        <Navbar color="dark" dark expand="md">
+        <NavbarBrand>RefugeeRescue</NavbarBrand>
+        <Nav>
+        <NavItem>
+          <NavLink href="'https://maxicb.github.io/UI/'" active>
+            Go Back
+          </NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="'https://github.com/MaxiCB/RefugeeRescue'" active>
+            Source
+          </NavLink>
+        </NavItem>
+      </Nav>
+      </Navbar>
+        <StaticMap mapStyle={mapStyle} mapboxApiAccessToken={mapBoxToken} />
       </DeckGL>
+    </>
   );
 }
 
